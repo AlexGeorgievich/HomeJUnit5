@@ -17,11 +17,11 @@ public class searchTrainingMaterials {
     public void setUp() {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
+        Configuration.holdBrowserOpen = true; // на период отладки тестов
     }
 
     @AfterEach
     public void tearDown() {
-        Configuration.holdBrowserOpen = true;
     }
 
 
