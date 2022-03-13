@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byLinkText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class searchTrainingMaterials {
+public class SearchTrainingMaterials {
     @BeforeEach
     public void setUp() {
         Configuration.browser = "chrome";
